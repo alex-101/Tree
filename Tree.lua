@@ -11,7 +11,6 @@ function Tree.GetFirstAncestorOfClassWithChild(me, ClassName, ChildName)
                 return nil
             end
             if Model:FindFirstChild(ChildName) then
-                print("WE GOT IT")
                 break
             end
         end
